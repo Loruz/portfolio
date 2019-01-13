@@ -22,6 +22,8 @@ ul {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 15px;
+    text-align: center;
 }
 
 .title {
@@ -54,4 +56,13 @@ ul {
 
 .social-link .social-link__logo {
     width: 24px;
+}
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 38px;
+    }
+    .subtitle {
+        font-size: 18px;
+    }
 }
